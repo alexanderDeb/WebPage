@@ -1,0 +1,173 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: #404040;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 48.5%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: large;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #404040;
+  background-color: #404040;
+}
+
+.logoutButton {
+  color: white;
+  background-color: #404040;
+  border: none;
+  font-size: medium;
+  transition: all 0.3s;
+}
+
+.logoutButton:hover {
+  transform: scale(1.2);
+}
+
+.titulonav{
+  padding-left: 20px;
+}
+
+.loginCard {
+  color: white;
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+  border-radius: 10px;
+  font-family: 'EB Garamond', serif;
+}
+
+.containerLogin {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonLogin {
+  background-color: #282828;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: medium;
+  transition: all 0.3s;
+}
+
+.buttonLogin:hover {
+  background-color: #181818;
+  transform: scale(1.1);
+}
+
+.inputLogin {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.imagen {
+  height: 300px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.containerUser {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardUser {
+  padding: 50px;
+  background-color: #404040;
+  border-radius: 10px;
+  display: flex;
+}
+
+.LogoutDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+  background-color: #282828;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.Link:hover{
+  transform: scale(1.1);
+}
+
+.ContainerProfileUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.cardProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.containerpages{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #404040;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  gap: 40px;
+}
